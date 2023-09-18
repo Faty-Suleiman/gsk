@@ -1,0 +1,187 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+  width: 80%;
+  height: 10%;
+   padding-top: 10px; 
+   justify-content: space-between;
+
+}
+
+.navsec{ 
+      border-bottom: 1px solid grey;
+      width: 100%;
+      height: 15%;
+}
+
+#im{
+height: 40px;
+width: 10%;
+
+ padding-top: 50px; 
+
+}
+.icons{
+border-left: 1px solid grey; 
+  justify-content: space-between;
+  margin-left: 1100px;
+  height: 10px;
+  width: 100px;
+  display: flex;
+ position:absolute;
+ padding-top: 5px;
+
+   
+  
+}
+#head-line{
+  font-size: 2rem;
+  display: flex;
+}
+#text{
+  font-size: 5rem;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: lighter;
+  margin-right: 700px;
+  margin-top: -520px;
+  
+}
+#head-img{
+  width: 50%;
+  height: 20%;
+  border: 1px;
+  border-radius: 20px;
+  /* padding: 0px 50px; */
+  margin-top: 20px;
+  margin-left: 350px;
+}
+#img1{
+  height: 30px;
+  width: 30px;
+}
+#hero{
+  font-size: 1.5rem;
+  margin-right: 750px;
+  margin-top: -50px;
+}
+#btn-hero{
+  width: 15%;
+  height: 50px;
+  background-color: orange;
+  color: white;
+  font-size: 1.5rem;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+#our{
+  font-size: 2rem;
+  text-align: center;
+}
+#strategy-dia{
+  height: 200vh;
+  z-index: 100px;
+  position: sticky;
+  left: 0px;
+  /* width: 300px; */
+  /* border: 3px solid #73AD21; */
+  padding: 10px;
+  margin-top: px;
+  /* margin-right: 700px;
+  -webkit-animation-direction: reverse; */
+  @keyframes bounce1 {
+  from {
+       transform: translatex(0);
+       /* background-color: blue; */
+    }
+    to{
+        transform: translatex(10px);
+        background-color: orange;
+    }
+}
+
+  animation: bounce1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.full {
+      background: url(    https://www.gsk.com/media/8395/hiv_octane_ry_6k_still_1280x720px.jpg?anchor=center&mode=crop&quality=90&width=420&height=336&rnd=133013494340000000)
+   0 0 no-repeat;
+  min-height: 300px;
+}
+
+.full {
+  background-size: cover;
+  position: relative;
+}   
+
+.full:hover .overlay-effect {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.overlay-effect {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(259, 67, 95, 0.7);
+  overflow:hidden;
+  .full a
+ {
+  color: #fff;
+}
+
+.full h3 {
+  padding: 15px 30px;
+}
+
+@media screen and (max-width: 368px) {
+  .full{margin-bottom: 10px;}
+}
+}
+#we{
+  font-size: 35px;
+  text-align: center;
+  /* word-spacing: 5px; */
+  font-weight: lighter;
+  font-style: normal; 
+  font-family: serif;
+
+}
+#rd{
+  font-size: 21px;
+  text-align: center;
+}
+#btn{
+  width: 30%;
+  height: 10%;
+  background-color: orange;
+  color: white;
+margin-left:400px;
+border: 1px solid white;
+border-radius: 7px;
+font-size: medium;
+
+}
+#anchor{
+ margin-left:500px ;
+ color: black;
+ font-size: 20px;
+ font-family: serif;
+}
+form{
+  width: 30%;
+  height: 40%;
+  background-color: white;
+  margin-left:400px;
+  border: 0px;
+  border-radius: 9px;
+
+}

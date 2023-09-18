@@ -1,0 +1,75 @@
+:root{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: cursive;
+}
+ul,li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 40rem;
+background-color: blueviolet;
+    border: 2px solid blue;
+    margin: 0 auto;
+    padding: 0 1rem;
+
+}
+#contact-btn{
+    background: plum;
+    padding: 0.5rem 1rem;
+    color: purple;
+    border: none;
+    border-radius: 3px;
+    font-size: .5rem .75rem ;
+
+}
+header{
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+
+}
+.Hero{
+ display: flex; 
+ 
+ 
+}
+.hero-head{
+    flex-basis: 70%;
+    color: white;
+
+}
+#input{
+padding: 0.5rem 2rem ;
+ border: none; 
+border-radius: 5px;
+
+}
+#btn{
+    background-color:lightgreen ;
+ padding: 0.5rem 1rem;   
+ border: none;
+ border-radius: 4px;
+ font-size: 0.5rem, 1rem;
+ margin-left: 30px;
+}
+.hero-img{
+
+flex-basis: 30%;
+}
+.footer{
+    color: white;
+    margin-left: 20px;
+    
+}
+#h6{
+    padding-top: 10px;
+    padding-top: -10;
+}
